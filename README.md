@@ -16,7 +16,7 @@ han-zixu-portfolio/
 
 `index.html` 的 `#contact` 区域已指向以下真实信息，如需更换请同时修改 `href` 与显示文字：
 
-- GitHub：<https://github.com/kaohsiungcafe7259-prog>
+- GitHub：<https://github.com/han-zix>
 - 邮箱：<mailto:zix_han@126.com>
 
 建议只在有真实、可审阅的练习后，再将其仓库地址加入项目卡片；不要把计划中的练习写成已完成项目。
@@ -33,13 +33,15 @@ python -m http.server 8000
 
 ## 部署到 GitHub Pages
 
+当前线上地址：<https://han-zix.github.io/>（仓库 `han-zix/han-zix.github.io`，Pages 由 `main` 分支根目录发布）。
+
 1. 登录 GitHub，点击右上角 **+** → **New repository**。
-2. 仓库名称填 `kaohsiungcafe7259-prog.github.io`（个人主页地址会是 `https://kaohsiungcafe7259-prog.github.io/`）。
+2. 仓库名称填 `han-zix.github.io`（个人主页地址会是 `https://han-zix.github.io/`）。
 3. 选择公开仓库（Public）。不要勾选自动添加 README，以免与本项目文件冲突。
 4. 若已在本地初始化 git（本仓库当前就是这种情况），只需把远端指向新仓库并推送：
 
    ```bash
-   git remote add origin https://github.com/kaohsiungcafe7259-prog/kaohsiungcafe7259-prog.github.io.git
+   git remote add origin https://github.com/han-zix/han-zix.github.io.git
    git push -u origin main
    ```
 
@@ -48,7 +50,7 @@ python -m http.server 8000
 6. 在 **Build and deployment** 中选择 **Deploy from a branch**；Branch 选择 `main`，文件夹选择 `/(root)`，然后点击 **Save**。
 7. 等待 GitHub 完成发布。刷新 Pages 页面即可看到网站地址；首次部署通常需要几分钟。
 
-若仓库使用其他名称，站点地址会变为 `https://kaohsiungcafe7259-prog.github.io/仓库名/`，相对路径仍可正常工作。
+若仓库使用其他名称，站点地址会变为 `https://han-zix.github.io/仓库名/`，相对路径仍可正常工作。
 
 ## 维护建议
 
