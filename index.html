@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Han Zixu · 集成电路工程研究生，正在夯实数字电路、Verilog 与 SystemVerilog 基础，寻找数字 IC 验证实习机会。" />
+    <meta name="author" content="Han Zixu" />
+    <meta name="theme-color" content="#0a100e" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Han Zixu | Digital IC Verification" />
+    <meta property="og:description" content="集成电路工程研究生，正在夯实数字电路、Verilog 与 SystemVerilog 基础，寻找数字 IC 验证实习机会。" />
+    <meta property="og:locale" content="zh_CN" />
+    <meta property="og:locale:alternate" content="en_US" />
+    <meta name="twitter:card" content="summary" />
+    <title>Han Zixu | Digital IC Verification</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2032%2032'%3E%3Crect%20width='32'%20height='32'%20rx='6'%20fill='%230a100e'/%3E%3Ctext%20x='16'%20y='22'%20font-family='monospace'%20font-size='11.5'%20font-weight='bold'%20fill='%2370f0ad'%20text-anchor='middle'%3EHZX%3C/text%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Noto+Sans+SC:wght@400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">跳到主要内容 / Skip to content</a>
+    <div class="scanlines" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Han Zixu home">HZX<span>_</span></a>
+      <nav aria-label="主导航 / Main navigation">
+        <a href="#about" data-i18n="navAbout">关于</a>
+        <a href="#skills" data-i18n="navSkills">技能</a>
+        <a href="#portfolio" data-i18n="navPortfolio">作品集</a>
+        <a href="#roadmap" data-i18n="navRoadmap">路线</a>
+        <a href="#contact" data-i18n="navContact">联系</a>
+      </nav>
+      <button class="language-toggle" type="button" aria-label="Switch to English / 切换到英文">EN</button>
+    </header>
+
+    <main id="main">
+      <section class="hero container" id="top">
+        <p class="prompt"><span>han@verification</span>:<span>~</span>$ <span id="typed-command"></span><span class="cursor">▋</span></p>
+        <div class="hero-grid">
+          <div>
+            <p class="eyebrow" data-i18n="heroEyebrow">数字 IC 验证方向</p>
+            <h1>Han Zixu</h1>
+            <p class="lead" data-i18n="heroLead">集成电路工程研究生，正系统夯实数字电路、Verilog 与 SystemVerilog 基础，目标是数字 IC 验证实习。</p>
+            <div class="hero-actions">
+              <a class="button primary" href="#portfolio" data-i18n="heroButton">查看学习与实践</a>
+              <a class="text-link" href="#contact" data-i18n="heroContact">联系我 <span aria-hidden="true">→</span></a>
+            </div>
+          </div>
+          <aside class="terminal-card" aria-label="profile status / 个人状态">
+            <div class="terminal-bar"><span></span><span></span><span></span><code>profile.status</code></div>
+            <dl class="status-list">
+              <dt>role</dt>
+              <dd class="accent" data-i18n="statusRole">集成电路工程研究生</dd>
+              <dt>focus</dt>
+              <dd class="accent" data-i18n="statusFocus">数字 IC 验证</dd>
+              <dt>mode</dt>
+              <dd class="warning" data-i18n="statusMode">夯实基础中</dd>
+              <dt>seeking</dt>
+              <dd class="accent" data-i18n="statusSeeking">数字 IC 验证实习</dd>
+              <dt>availability</dt>
+              <dd class="accent" data-i18n="statusAvailability">开放交流机会</dd>
+            </dl>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section container" id="about">
+        <div class="section-heading"><p class="section-index">01</p><h2 data-i18n="aboutTitle">关于我</h2></div>
+        <div class="split-copy">
+          <p data-i18n="aboutText1">我是一名集成电路工程研究生，正在从扎实的数字逻辑基础出发，进入数字 IC 验证的工程实践。我的近期重心是理解设计规格、编写可读可测的 RTL，并建立面向验证的思考方式。</p>
+          <p data-i18n="aboutText2">我看重严谨、可追溯的工作习惯：先拆解问题，再用仿真、断言与覆盖率等方法验证假设。这个网站记录我的学习进程与即将展开的练习，而不是把准备中的内容包装成既有成果。</p>
+        </div>
+      </section>
+
+      <section class="section container" id="skills">
+        <div class="section-heading"><p class="section-index">02</p><h2 data-i18n="skillsTitle">技能状态</h2></div>
+        <p class="section-intro" data-i18n="skillsIntro">以下是当前学习重点与下一步实践计划，不代表熟练度认证或已完成的工业项目经验。</p>
+        <div class="skill-grid">
+          <article class="skill-card"><p class="tag learning" data-i18n="learning">正在学习</p><h3>Digital Logic</h3><p data-i18n="skillLogic">组合/时序逻辑、有限状态机、同步设计与时序概念。</p></article>
+          <article class="skill-card"><p class="tag learning" data-i18n="learning">正在学习</p><h3>Verilog</h3><p data-i18n="skillVerilog">RTL 建模、testbench 基础与仿真调试流程。</p></article>
+          <article class="skill-card"><p class="tag learning" data-i18n="learning">正在学习</p><h3>SystemVerilog</h3><p data-i18n="skillSv">数据类型、接口、断言与面向对象验证方法的基础。</p></article>
+          <article class="skill-card"><p class="tag planned" data-i18n="planned">计划实践</p><h3>Verification Flow</h3><p data-i18n="skillFlow">逐步练习约束随机、覆盖率驱动验证与基础 UVM 概念。</p></article>
+        </div>
+      </section>
+
+      <section class="section container" id="portfolio">
+        <div class="section-heading"><p class="section-index">03</p><h2 data-i18n="portfolioTitle">学习与作品集</h2></div>
+        <p class="section-intro" data-i18n="portfolioIntro">暂无已完成、可公开展示的验证项目。以下条目是正在推进或计划建立的练习方向；完成并核验后会补充代码与结果。</p>
+        <div class="project-list">
+          <article class="project-card">
+            <div><p class="project-number">01</p><h3 data-i18n="project1Title">数字电路与 RTL 练习</h3><p data-i18n="project1Text">围绕组合逻辑、寄存器、计数器与有限状态机建立小型 RTL 练习，并配套基础仿真。</p><ul><li data-i18n="project1Item1">状态：进行中</li><li data-i18n="project1Item2">目标：巩固可综合 RTL 表达与波形调试</li></ul></div>
+            <span class="status active" data-i18n="inProgress">进行中</span>
+          </article>
+          <article class="project-card">
+            <div><p class="project-number">02</p><h3 data-i18n="project2Title">SystemVerilog 验证练习</h3><p data-i18n="project2Text">为小型设计模块规划 testbench，逐步尝试事务、断言与功能覆盖率等验证要素。</p><ul><li data-i18n="project2Item1">状态：计划中</li><li data-i18n="project2Item2">目标：理解验证平台的基本构成与检查思路</li></ul></div>
+            <span class="status planned" data-i18n="planned">计划中</span>
+          </article>
+          <article class="project-card">
+            <div><p class="project-number">03</p><h3 data-i18n="project3Title">验证笔记与复盘</h3><p data-i18n="project3Text">将学习过程中的规格理解、常见错误、仿真观察与调试思路整理为可复查的笔记。</p><ul><li data-i18n="project3Item1">状态：持续进行</li><li data-i18n="project3Item2">目标：形成清晰、可复用的工程学习记录</li></ul></div>
+            <span class="status active" data-i18n="ongoing">持续进行</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="section container" id="roadmap">
+        <div class="section-heading"><p class="section-index">04</p><h2 data-i18n="roadmapTitle">学习路线</h2></div>
+        <ol class="roadmap">
+          <li><span>NOW</span><div><h3 data-i18n="roadmap1Title">夯实数字设计基础</h3><p data-i18n="roadmap1Text">复习数字逻辑与时序设计；通过小练习理解 RTL 与仿真之间的联系。</p></div></li>
+          <li><span>NEXT</span><div><h3 data-i18n="roadmap2Title">建立验证方法意识</h3><p data-i18n="roadmap2Text">学习 SystemVerilog 核心特性，练习 testbench、断言与基础覆盖率。</p></div></li>
+          <li><span>THEN</span><div><h3 data-i18n="roadmap3Title">沉淀可审阅的练习</h3><p data-i18n="roadmap3Text">将已完成并自查的练习整理为可复现仓库，持续为验证实习做准备。</p></div></li>
+        </ol>
+      </section>
+
+      <section class="contact container" id="contact">
+        <p class="prompt"><span>han@verification</span>:<span>~</span>$ contact --open</p>
+        <h2 data-i18n="contactTitle">期待交流学习与实习机会。</h2>
+        <p data-i18n="contactText">欢迎通过 GitHub 或邮件联系我，我会尽快回复。</p>
+        <div class="contact-links">
+          <a href="https://github.com/kaohsiungcafe7259-prog" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+          <a href="mailto:zix_han@126.com">zix_han@126.com <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+    </main>
+    <footer><span>© <span id="year"></span> Han Zixu</span><span data-i18n="footer">Built with HTML, CSS &amp; JavaScript.</span></footer>
+    <script src="script.js"></script>
+  </body>
+</html>
